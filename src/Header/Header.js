@@ -7,6 +7,7 @@ import search from '../assets/icons/search.png';
 
 const Header = () => {
     return(
+    <div className="main-container">
         <nav className="header__navigation">
         <div className="navigation">
             <div className="arrows">
@@ -27,6 +28,7 @@ const Header = () => {
             </div>
             </div>
         </nav>
+    </div>
     )
 };
 
